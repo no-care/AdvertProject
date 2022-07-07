@@ -1,0 +1,31 @@
+﻿<Window x:Class="AdvertProject.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AdvertProject"
+        mc:Ignorable="d"
+        MinWidth="1100" MinHeight="780"
+        Title="Поиск пропавщих вещей" Height="680" Width="1100">
+    <Grid>
+        <Grid.ColumnDefinitions>
+
+            <ColumnDefinition Width="863*"/>
+            <ColumnDefinition Width="229*"/>
+
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="80"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid Background="#ceb1fa" Grid.ColumnSpan="2" >
+        </Grid>
+        <TextBlock Text="found!"  VerticalAlignment="Center" FontSize="35" Margin="129,12,597,26" Height="42"/>
+        <Image Width="80" Height="80" HorizontalAlignment="Left"  />
+        <Button Name="RegistrationBtn" Content="Регистрация" Background="#87b7ff" FontSize="15" Click="RegistrationBtn_Click"  Width="115" Height="30" Margin="86,29,28,21" Grid.Column="1"/>
+        <Button x:Name="AutorizationBtn" Click="AutorizationBtn_Click" Content="Вход" Background="#87b7ff" FontSize="15"  Width="115" Height="30" Margin="86,29,28,21" Grid.Column="1" />
+        <Button Name="AddAdvertBtn" Content="Добавить объявление" Background="#87b7ff" FontSize="15" Click="AddAdvertBtn_Click"  Width="170" Height="30" Margin="762,45,160,5" Grid.ColumnSpan="2"/>
+        <Button Name="UserProfileBtn" Content="Мой профиль" Background="#87b7ff" FontSize="15" Click="UserProfileBtn_Click"  Width="120" Height="30" Margin="782,10,190,40" RenderTransformOrigin="0.95,-0.117" Grid.ColumnSpan="2"/>
+        <Frame ContentRendered="MainFrame_ContentRendered" Name="MainFrame" Grid.Row="1" Grid.ColumnSpan="2"/>
+    </Grid>
+</Window>

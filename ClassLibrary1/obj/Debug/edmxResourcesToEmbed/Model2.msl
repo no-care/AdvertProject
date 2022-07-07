@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Хранилище AdvertProjectModelContainer" CdmEntityContainer="AdvertProjectEntities1">
+    <EntitySetMapping Name="Adverts">
+      <EntityTypeMapping TypeName="AdvertProjectModel.Adverts">
+        <MappingFragment StoreEntitySet="Adverts">
+          <ScalarProperty Name="ID_Объявления" ColumnName="ID_Объявления" />
+          <ScalarProperty Name="ID_Пользователя" ColumnName="ID_Пользователя" />
+          <ScalarProperty Name="Время_находки" ColumnName="Время находки" />
+          <ScalarProperty Name="Место_находки" ColumnName="Место находки" />
+          <ScalarProperty Name="Краткое_описание" ColumnName="Краткое описание" />
+          <ScalarProperty Name="Подробное_описание" ColumnName="Подробное описание" />
+          <ScalarProperty Name="Активность" ColumnName="Активность" />
+          <ScalarProperty Name="Ссылка_на_изображение" ColumnName="Ссылка на изображение" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Images">
+      <EntityTypeMapping TypeName="AdvertProjectModel.Images">
+        <MappingFragment StoreEntitySet="Images">
+          <ScalarProperty Name="ID_Изображения" ColumnName="ID_Изображения" />
+          <ScalarProperty Name="ID_Объявления" ColumnName="ID_Объявления" />
+          <ScalarProperty Name="Ссылка_на_изображение" ColumnName="Ссылка на изображение" />
+          <ScalarProperty Name="Описание" ColumnName="Описание" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sysdiagrams">
+      <EntityTypeMapping TypeName="AdvertProjectModel.sysdiagrams">
+        <MappingFragment StoreEntitySet="sysdiagrams">
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="principal_id" ColumnName="principal_id" />
+          <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="definition" ColumnName="definition" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Users">
+      <EntityTypeMapping TypeName="AdvertProjectModel.Users">
+        <MappingFragment StoreEntitySet="Users">
+          <ScalarProperty Name="ID_Пользователя" ColumnName="ID_Пользователя" />
+          <ScalarProperty Name="Логин" ColumnName="Логин" />
+          <ScalarProperty Name="Пароль" ColumnName="Пароль" />
+          <ScalarProperty Name="Почта" ColumnName="Почта" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

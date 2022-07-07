@@ -1,0 +1,16 @@
+C:\Users\Дом\Desktop\AdvertProject\ClassLibrary1\bin\Debug\ClassLibrary1.dll.config
+C:\Users\Дом\Desktop\AdvertProject\ClassLibrary1\bin\Debug\ClassLibrary1.dll
+C:\Users\Дом\Desktop\AdvertProject\ClassLibrary1\bin\Debug\ClassLibrary1.pdb
+C:\Users\Дом\Desktop\AdvertProject\ClassLibrary1\bin\Debug\AdvertProject.exe
+C:\Users\Дом\Desktop\AdvertProject\ClassLibrary1\bin\Debug\EntityFramework.dll
+C:\Users\Дом\Desktop\AdvertProject\ClassLibrary1\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Дом\Desktop\AdvertProject\ClassLibrary1\bin\Debug\AdvertProject.pdb
+C:\Users\Дом\Desktop\AdvertProject\ClassLibrary1\bin\Debug\AdvertProject.exe.config
+C:\Users\Дом\Desktop\AdvertProject\ClassLibrary1\bin\Debug\EntityFramework.xml
+C:\Users\Дом\Desktop\AdvertProject\ClassLibrary1\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Дом\Desktop\AdvertProject\ClassLibrary1\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\Дом\Desktop\AdvertProject\ClassLibrary1\obj\Debug\ClassLibrary1.csproj.AssemblyReference.cache
+C:\Users\Дом\Desktop\AdvertProject\ClassLibrary1\obj\Debug\ClassLibrary1.csproj.CoreCompileInputs.cache
+C:\Users\Дом\Desktop\AdvertProject\ClassLibrary1\obj\Debug\ClassLibrary1.csproj.CopyComplete
+C:\Users\Дом\Desktop\AdvertProject\ClassLibrary1\obj\Debug\ClassLibrary1.dll
+C:\Users\Дом\Desktop\AdvertProject\ClassLibrary1\obj\Debug\ClassLibrary1.pdb
